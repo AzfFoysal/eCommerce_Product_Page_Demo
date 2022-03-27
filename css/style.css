@@ -722,7 +722,8 @@
   border: none;
 }
 .header.shop .header-inner {
-  background: #333;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 3px 5px #9494944d;
 }
 .header.shop.v3 .header-inner {
   background: transparent;
@@ -927,7 +928,7 @@
   color: #333;
 }
 .header.shop .nav li a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-transform: capitalize;
   font-size: 15px;
   padding: 20px 15px;
@@ -2961,6 +2962,15 @@
   max-height: 65px;
   border: 1px solid #e6e6e6;
   padding: 4px;
+}
+.row {
+  padding: 3px;
+  display: flex;
+}
+
+.column {
+  flex: 15%;
+  padding: 15px;
 }
 .shopping-summery tbody .product:hover img {
   border-color: #f7941d;
