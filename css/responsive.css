@@ -190,7 +190,7 @@ Version:1.0
   .hero-area3 .small-content.secound {
     width: 49%;
     display: inline-block;
-    float: right;
+    float: none;
   }
   .hero-area4 .big-content {
     height: 400px;
@@ -850,7 +850,7 @@ Version:1.0
   }
   .shopping-cart .table td {
     padding: 0.75rem;
-    vertical-align: top;
+    /* vertical-align: top; */
     border-top: 1px solid #e9ecef;
     display: block;
     height: auto;
@@ -1445,20 +1445,9 @@ Version:1.0
   }
   .shop .nice-select {
     width: 100%;
-    display: ;
+    display: block;
     margin-top: 4px;
   }
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  /* @media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
-  }
-  .responsive {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  } */
   .shop .view-mode {
     float: right;
     float: none;
@@ -1470,12 +1459,12 @@ Version:1.0
     margin-right: 5px;
     display: inline-block;
     margin: 0;
-    mar0-t: mar;
+    margin: mar;
     margin-top: 4px;
     width: 100%;
     display: block;
     display: inline-block;
-    display: ;
+    display: block;
   }
   .shop .view-mode li a {
     width: 80px;
